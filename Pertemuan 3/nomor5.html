@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh Tabel</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .border-normal {
+            border: 1px solid black;
+        }
+        .border-tebal {
+            border: 8px solid black;
+        }
+        .border-sangat-tebal {
+            border: 15px solid black;
+        }
+        .border-tidak-ada {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        Setiap tabel dimulai dengan tag <code>&lt;table&gt;</code>.<br>
+        Setiap baris tabel dimulai dengan tag <code>&lt;tr&gt;</code>.<br>
+        Setiap data dalam tabel dimulai dengan tag <code>&lt;td&gt;</code>.
+    </p>
+
+    <h4>Satu baris satu kolom dengan border normal:</h4>
+    <table class="border-normal">
+        <tr>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <h4>Satu baris dan tiga kolom dengan border tebal:</h4>
+    <table class="border-tebal">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+
+    <h4>Dua baris dan tiga kolom dengan border sangat tebal:</h4>
+    <table class="border-sangat-tebal">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>500</td>
+            <td>600</td>
+        </tr>
+    </table>
+
+    <h4>Tabel ini tidak memiliki border:</h4>
+    <table class="border-tidak-ada">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>300</td>
+            <td>400</td>
+        </tr>
+    </table>
+
+</body>
+</html>
